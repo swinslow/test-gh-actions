@@ -3,6 +3,7 @@ on: push
 jobs:
   run:
     name: Job to run main
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-go@v1
